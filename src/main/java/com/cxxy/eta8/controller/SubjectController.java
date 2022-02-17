@@ -346,6 +346,25 @@ public class SubjectController extends Controller {
                         horizon.setDutyFreeId(getPara("DutyFreeId"));
                         horizon.setIsPromote(getParaToInt("isPromote"));
                         horizon.setContractDuty(getPara("ContractDuty"));
+
+                        horizon.setBuyerName(getPara("BuyerName"));
+                        horizon.setBuyerContinent(getPara("BuyerContinent"));
+                        horizon.setBuyerType(getParaToInt("BuyerType"));
+                        horizon.setBuyerProvince(getParaToInt("BuyerProvince"));
+                        horizon.setBuyerCity(getParaToInt("BuyerCity"));
+                        horizon.setBuyerCounty(getParaToInt("BuyerCounty"));
+                        horizon.setBuyerPostCode(getParaToInt("BuyerPostCode"));
+                        horizon.setBuyerContact(getPara("BuyerContact"));
+                        horizon.setBuyerTel(getParaToInt("BuyerTel"));
+                        horizon.setBuyerLegalPerson(getPara("BuyerLegalPerson"));
+                        horizon.setBuyerLegalEntityCode(getParaToInt("BuyerLegalEntityCode"));
+                        horizon.setBuyerEmail(getPara("BuyerEmail"));
+                        horizon.setBuyerRegisteredAddress(getPara("BuyerRegisteredAddress"));
+                        horizon.setBuyerMailingAddress(getPara("BuyerMailingAddress"));
+
+
+
+
                         horizon.setPayId(getParaToInt("PayId"));
                         horizon.setEconomicId(getParaToInt("EconomicId"));
                         horizon.setSocietyId(getParaToInt("SocietyId"));
